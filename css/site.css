@@ -15,6 +15,11 @@ body{
 a{
 	color:#72B7BC;
 }
+a:hover,
+a:focus,
+a:active{
+	color:#ffffff;
+}
 
 .redcolor{
   color:#BC0203;
