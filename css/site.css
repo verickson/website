@@ -1,0 +1,101 @@
+*{
+	/*This allows for the padding on items to smoosh down instead of reformatting the box*/
+	box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+	font-family: 'Lato', sans-serif;
+	margin-top:51px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	background-color: #E7EAE1;
+}
+
+a{
+	color:#72B7BC;
+}
+
+.redcolor{
+  color:#BC0203;
+}
+.greycolor{
+  color:#E7EAE1;
+}
+.ltbluecolor{
+  background-color:#72B7BC;
+}
+.dkbluecolor{
+  background-color:#0D2235;
+}
+.blackcolor{
+  color:#000000;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 8px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-nav>li>a{
+		color:#ffffff;
+}
+.nav>li>a:focus,
+.nav>li>a:hover{
+	background-color:#72B7BC;
+}
+li.active a{
+	color: #72B7BC;
+	font-weight: bold;
+}
+li.active a:hover,
+li.active a:focus{
+	color: #ffffff;
+	background-color: #72B7BC;
+	font-weight: normal;
+}
+.navbar-toggle{
+	border: none;
+}
+.navbar-toggle .icon-bar{
+	background-color: #72B7BC;
+}
+.logo{
+		width: auto;
+		height: 42px;
+}
+.content{
+	color: #0D2235;
+	padding-top:50px;
+}
+.name{
+	font-size: 18px;
+}
+
+/*profile image*/
+.profileimg{
+  max-height:200px;
+  max-width:200px;
+	margin-top: -24px;
+}
+.profileimgcontainer{
+	display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/*footer*/
+footer{
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+	color:#ffffff;
+	vertical-align: middle;
+}
