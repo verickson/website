@@ -111,6 +111,22 @@ li.active a:focus{
 	background-color: transparent;
 }
 
+/*work*/
+.workdesign{
+	max-height: 300px;
+	padding: 0px;
+	overflow: hidden;
+	position: relative;
+}
+.workdesign img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.workdesign img:hover {
+  opacity: 0.2;
+}
+
 /*about*/
 .name{
 	font-size: 18px;
