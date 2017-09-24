@@ -2,19 +2,27 @@
 	/*This allows for the padding on items to smoosh down instead of reformatting the box*/
 	box-sizing: border-box;
 }
+
+html{
+	position: relative;
+    min-height: 100%;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Lato');
+
 body{
 	font-family: 'Lato', sans-serif;
 	margin-top:51px;
 	margin-left:0px;
 	margin-right:0px;
-	margin-bottom:0px;
+	margin-bottom:50px;
 	background-color: #E7EAE1;
 }
 
 a{
 	color:#72B7BC;
 }
+
 a:hover,
 a:focus,
 a:active{
@@ -24,15 +32,19 @@ a:active{
 .redcolor{
   color:#BC0203;
 }
+
 .greycolor{
   color:#E7EAE1;
 }
+
 .ltbluecolor{
   background-color:#72B7BC;
 }
+
 .dkbluecolor{
   background-color:#0D2235;
 }
+
 .blackcolor{
   color:#000000;
 }
@@ -44,47 +56,72 @@ a:active{
     font-size: 18px;
     line-height: 20px;
 }
+
 .navbar-nav>li>a{
 		color:#ffffff;
 }
+
 .nav>li>a:focus,
 .nav>li>a:hover{
 	background-color:#72B7BC;
 }
+
 li.active a{
 	color: #72B7BC;
 	font-weight: bold;
 }
+
 li.active a:hover,
 li.active a:focus{
 	color: #ffffff;
 	background-color: #72B7BC;
 	font-weight: normal;
 }
+
 .navbar-toggle{
 	border: none;
 }
+
 .navbar-toggle .icon-bar{
 	background-color: #72B7BC;
 }
+
 .logo{
 		width: auto;
 		height: 42px;
 }
+
 .content{
 	color: #0D2235;
 	padding-top:50px;
+	margin-bottom:50px;
 }
+
+.btn-red{
+	color: #ffffff;
+	/*border: 1px solid #BC0203;*/
+	background-color: #BC0203;
+}
+
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active{
+	color: #BC0203;
+	border: 1px solid #BC0203;
+	background-color: transparent;
+}
+
+/*about*/
 .name{
 	font-size: 18px;
 }
 
-/*profile image*/
 .profileimg{
   max-height:200px;
   max-width:200px;
 	margin-top: -24px;
 }
+
 .profileimgcontainer{
 	display: inline-block;
   position: relative;
@@ -92,6 +129,13 @@ li.active a:focus{
   height: 150px;
   overflow: hidden;
   border-radius: 50%;
+}
+
+/*resume*/
+#ResumeImg{
+	height:100%;
+	width:100%;
+	margin-bottom:20px;
 }
 
 /*footer*/
