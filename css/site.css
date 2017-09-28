@@ -32,6 +32,13 @@ a:active{
 .redcolor{
   color:#BC0203;
 }
+a.redcolor:hover,
+a.redcolor:focus,
+a.redcolor:active{
+	color:#BC0203;
+	text-decoration: none;
+	font-weight: bold;
+}
 
 .greycolor{
   color:#E7EAE1;
